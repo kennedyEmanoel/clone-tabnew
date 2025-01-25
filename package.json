@@ -8,7 +8,7 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watchAll"
   },
   "author": "",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "gpg": "^0.6.0",
     "keybase": "^0.8.27",
     "next": "^13.1.6",
+    "pg": "^8.11.3",
     "pinentry": "^0.0.1"
   },
   "devDependencies": {
