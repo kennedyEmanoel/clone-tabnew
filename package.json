@@ -13,9 +13,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "docker": "^1.0.0",
+    "docker-compose": "^1.1.1",
     "gpg": "^0.6.0",
     "keybase": "^0.8.27",
     "next": "^13.1.6",
+    "nvm": "^0.0.4",
     "pg": "^8.11.3",
     "pinentry": "^0.0.1"
   },
