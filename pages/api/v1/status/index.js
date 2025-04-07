@@ -1,4 +1,4 @@
-import database from "../../../../infra/database.js";
+/*import database from "../../../../infra/database.js";
 
 async function status(request, response) {
   const result = await database.query("SELECT 1  + 1 as sum;");
@@ -6,12 +6,10 @@ async function status(request, response) {
   response.status(200).json({ chave: "são acima da média" });
 }
 
-export default status;
+export default status;*/
 
-/* 
 function status(request, response) {
   response.status(200).json({ chave: "valor" });
 }
 
 export default status;
- */
